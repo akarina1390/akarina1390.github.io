@@ -1,37 +1,51 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ana's Profile</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
 
-You can use the [editor on GitHub](https://github.com/akarina1390/akarina1390.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<body>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <div class="container1">
+        <div class="container1" id="picContainer">
+            <img id="headPic" src="https://i0.wp.com/timemanagementninja.com/wp-content/uploads/2014/02/Organized-Desk.jpg?resize=600%2C400&ssl=1">
+        </div>
 
-### Markdown
+        <div class="container1" id="introHeaderContainer">
+            <div class="container1" id="introHeader">
+                <h3 id="header1">HELLO!</h3>
+                <h1 id="header2">I'm Ana Carrocci</h1>
+                <h3 id="header1">Computer Science Student</h3>
+            </div>
+        </div>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <div class="container2">
+        <div class="container2">
+            <a href="../resume.html"><h3 class="button">Resume</h3></a>
+            <a href="../portfolio.html"><h3 class="button">Portfolio</h3></a>
+        </div>
+    </div>
 
-```markdown
-Syntax highlighted code block
+    <div class="aboutMeContainer">
+        <h3 class="aboutMeContainer" id="aboutHeader">About Me</h3>
+        <p class="aboutMeContainer" id="aboutContent"> Born in Caracas, Venezuela. I attended to Catholic University Andrés Bello, obtaining a degree in Law.
+            I worked as a paralegal in corporate and tax law many years during my university degree, and as a legal
+            analyst at the Venezuelan-American Chamber of Comerce after I graduate.</p>
 
-# Header 1
-## Header 2
-### Header 3
+        <p class="aboutMeContainer" id="aboutContent"> I did a masters degreee in International Business Law and move to Calgary in 2015, where I decided to start
+            a new path. I am currently a Computer Science student at the University of Calgary with expecatives of graduating
+            in December of this year.</p>
 
-- Bulleted
-- List
+        <p  class="aboutMeContainer" id="aboutContent"> I am not scared about any work which will improve me and my abilities. I would like to get new ideas; I have no problems
+            with working in team or by myself considering, I am flexible and reliable.</p>
+    </div>
 
-1. Numbered
-2. List
+    <div class="myPicContainer">
+        <img class="myPicContainer"id="mypic" src="https://media-exp2.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/210/008/3143dce.jpg">
+    </div>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/akarina1390/akarina1390.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
