@@ -41,6 +41,11 @@ body {
     height: initial;
     font-size: large;
     width: 100px;
+    background-color: #1F2833;
+    border-radius: 8px;
+    width: 200%;
+    padding: 1%;
+    text-align: left;
 }
 
 a:link {
@@ -108,15 +113,15 @@ a:link {
 
 #techExperienceHeader {
     position: absolute;
-    right: 435px;
-    top: 460px;
+    right: 38%;
+    top: 63%;
 }
 
 .techSkillsContent {
     background-color: #45A29E;
     position: absolute;
-    right: 20px;
-    top: 250px;
+    right: 3%;
+    bottom: 2%;
     width: 570px;
 }
 
@@ -156,6 +161,7 @@ th {
     background-color: #C5C6C7;
     font-size: medium;
     border: 1px solid white;
+    border-radius: 8px;
     border-collapse: collapse;
     padding: 15px;
     text-align: center;
@@ -164,6 +170,7 @@ th {
 td {
     background-color: #45A29E;
     border: 1px solid white;
+    border-radius: 8px;
     border-collapse: collapse;
     padding: 15px;
     text-align: left;
@@ -174,14 +181,16 @@ td {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: initial;
     font-size: large;
-    width: 250px;
+    width: 20%;
     float: left;
     margin: 2%;
     text-align: center;
+    background-color: #45A29E;
+    border-radius:8px;
 }
 
 .toolBar:hover {
-    background-color: #45A29E;
+    background-color: #C5C6C7;
 }
 
 #fastButton {
@@ -239,6 +248,10 @@ td {
     width: 17%;
     height: 10%;
     padding: 1%;
+}
+
+.flashButton:hover {
+    background-color: #C5C6C7;
 }
 
 .flashButton{
