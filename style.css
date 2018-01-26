@@ -106,7 +106,7 @@ a:link {
     border: 0.06em solid white;
     border-radius: 0.50em;
     background-color: #45A29E;
-    width: 100%;
+    width: 90em;
 }
 
 #skillsContent {
@@ -153,7 +153,7 @@ a:link {
     background-color: #45A29E;
     padding: 1%;
     margin: 2%;
-    width: 100%;
+    width: 72em;
 }
 
 .educationHeaders {
