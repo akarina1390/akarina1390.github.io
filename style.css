@@ -230,7 +230,7 @@ td {
     width: 37.5em;
     position: absolute;
     top: 19.5em;
-    left: 0.5em;
+    left: 3em;
 }
 
 #fastCheckoutHeaderContainer {
@@ -241,17 +241,30 @@ td {
     margin: 1%;
     text-align: center;
     width: 37.5em;
-    position:absolute;
-    top:19.5em;
-    right: 0.5em;
+    position: absolute;
+    top: 19.5em;
+    left: 38em;
 }
 
 #videosContainer{
-    background-color:white;
-
+    position:absolute;
+    top:25em;
 }
 
+#videoFlascardsContainer {
+    position: absolute;
+    left: 4em;
+    top: 1em;
+    margin: 1%;
+    background-color:orange;
+}
 
+#videoFastCheckOutContainer {
+    position: absolute;
+    left: 22em;
+    top: 1em;
+    margin: 1%;
+}
 
 .toolBar {
     color: white;
