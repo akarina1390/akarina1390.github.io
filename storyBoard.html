@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ana's Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+    <!--<script src="script.js" type="text/javascript"></script>-->
+</head>
+
+<body>
+
+    <div class="containerPic">
+        <div class="containerPic" id="picContainer">
+            <img id="headPic" src="https://i0.wp.com/timemanagementninja.com/wp-content/uploads/2014/02/Organized-Desk.jpg?resize=600%2C400&ssl=1">
+        </div>
+
+        <div class="containerPic" id="introHeaderContainer">
+            <div class="containerPic" id="introHeader">
+                <h1 id="header2">Portfolio</h1>
+                <h3 id="header1">Flascards</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div id="mainButtonContainer">
+            <a href="../index.html"><h3 class="button">Home</h3></a>
+            <a href="../resume.html"><h3 class="button">Resume</h3></a>
+        </div>
+    </div>
+
+    <div class="toolBarContainer">
+        <a href="../portfolio.html"><h3 class="toolBar" id="fastButton">Back to Portfolio</h3></a>
+    </div>
+
+    <div class="flascardContainer">
+        <a href="diagram.html"><h4 class="flashButton">Diagrams</h4></a>
+        <a href="estimation.html"><h4 class="flashButton">Effort Estimation</h4></a>
+        <a href="sketches.html"><h4 class="flashButton">Sketches</h4></a>
+        <a href="storyBoard.html"><h4 class="flashButton">Story Board</h4></a>
+    </div>
+
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4</div>
+            <img src="../images/storyboards/1.CREATE.jpg" style="width:100%">
+            <div class="text">Create</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="../images/storyboards/2.STUDY.jpg" style="width:100%">
+            <div class="text">Study</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="../images/storyboards/3.EDIT.jpg" style="width:100%">
+            <div class="text">Edit</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="../images/storyboards/4.DELETE.jpg" style="width:100%">
+            <div class="text">Delete</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script>
+        //https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow
+
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+</html>
